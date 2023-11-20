@@ -31,3 +31,6 @@ const min = 1;
 const max = 33;
 let result = Math.floor(Math.random() * (max - min + 1) + min);
 console.log(result);
+
+//? normal random
+console.log(Math.random());
