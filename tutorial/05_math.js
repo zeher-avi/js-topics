@@ -27,10 +27,12 @@ const numberNew = 23.3;
 // console.log(Math.floor(numberNew));
 
 //?gets random number
+
+//?normal random
+console.log(Math.random()); //! it will give values between 0 and 1
+
+//? value between max and min
 const min = 1;
 const max = 33;
 let result = Math.floor(Math.random() * (max - min + 1) + min);
 console.log(result);
-
-//? normal random
-console.log(Math.random()); //! result would be between 0 to 1
