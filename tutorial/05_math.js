@@ -33,4 +33,4 @@ let result = Math.floor(Math.random() * (max - min + 1) + min);
 console.log(result);
 
 //? normal random
-console.log(Math.random());
+console.log(Math.random()); //! result would be between 0 to 1
